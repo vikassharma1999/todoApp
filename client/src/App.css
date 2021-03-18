@@ -1,0 +1,267 @@
+body{
+  background-color: black
+}
+header{
+  background-color: #161b22;
+  color: antiquewhite;
+  padding: 10px;
+  width: 100%;
+  margin-top:-8px;
+  margin-left: -8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logout-btn{
+  font-size: 20px;
+  color: aliceblue;
+  background: #161b22;
+  outline: 0;
+  border: none;
+}
+.main{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin:auto;
+}
+/*h1{
+  text-align: center;
+  color: antiquewhite;
+}*/
+.login-form{
+  background-color: #161b22;
+  padding: 15px;
+  display:flex;
+  flex-direction:column;
+}
+
+/*input[type="text"]{
+  width:310px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background:#161b22;
+  color: #58a6ff;
+}*/
+input[type="email"]{
+  width:310px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background:#161b22;
+  color: #58a6ff;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+input[type="password"]{
+  width:310px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background:#161b22;
+  color: #58a6ff;
+  padding-top:10px;
+  padding-bottom:30px;
+}
+p{
+  color:red;
+}
+
+.login-btn{
+  font-size: 1.5em;
+  color: #58a6ff;
+  background:#161b22;
+  outline: 0;
+  border: none;
+  width: 50px;
+}
+
+
+.login-list{
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  padding-left: initial;
+}
+
+
+span{
+  float: right;
+}
+
+.login-a{
+  float: right;
+  text-align: right;
+  font-size: 1.2em;
+  cursor: pointer;
+  color:cornsilk;
+  text-decoration: none;
+}
+
+a{
+  color:cornsilk;
+  text-decoration: none;
+}
+
+
+
+h1{
+  text-align: center;
+  color: antiquewhite;
+}
+
+.signup-form{
+  background-color: #161b22;
+  padding: 15px;
+  display:flex;
+  flex-direction:column;
+}
+
+input[type="text"]{
+  width:310px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background:#161b22;
+  color: #58a6ff;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+/*input[type="email"]{
+  width:310px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background:#161b22;
+  color: #58a6ff;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+input[type="password"]{
+  width:310px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background:#161b22;
+  color: #58a6ff;
+  padding-top:10px;
+  padding-bottom:30px;
+}
+*/
+.signup-btn{
+  font-size: 1.5em;
+  color: #58a6ff;
+  background:#161b22;
+  outline: 0;
+  border: none;
+  width: 50px;
+}
+.signup-a{
+  float: right;
+  text-align: right;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+/*.main{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin:auto;
+}*/
+/*h1{
+  text-align: center;
+  color: antiquewhite;
+}*/
+.taskboard-form{
+  background-color: #161b22;
+  padding: 15px;
+  display: block;
+}
+
+input[type="text"]{
+  width:310px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background:#161b22;
+  color: #58a6ff;
+}
+
+.taskboard-btn{
+  font-size: 1.5em;
+  color: #58a6ff;
+  background:#161b22;
+  outline: 0;
+  border: none;
+  width: 50px;
+}
+
+.tasksBoard{
+  background-color: #161b22;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  color: #58a6ff;
+  /*display: none;*/
+}
+.clear-btn{
+  background-color: #161b22;
+  float: right;
+  text-align: right;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: antiquewhite;
+  outline: 0;
+  border: none;
+}
+.taskboard-ul{
+  list-style: none;
+  padding-left: revert;
+  display: block;
+}
+
+.taskboard-li{
+  border-bottom: 1px solid #53BDFF;
+  padding-bottom:15px;
+  padding-top: 15px;
+  font-size: 1.3em;
+  /*color: #2f4f4f;*/
+}
+/*span{
+  float: right;
+}*/
+
+.taskboard-a{
+  float: right;
+  text-align: right;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.delete{
+  /*background-color: #161b22;*/
+  padding: 0px 3px 0px 3px;
+  cursor: pointer;
+}
+@media (max-width:500px){
+  .main{
+    margin: auto;
+    width: 100%;
+  }
+  input[type="text"]{
+    width: 80%;
+  }
+  
+}
